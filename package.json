@@ -1,0 +1,37 @@
+{
+    "name": "mynodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "看不懂就跳過去-type": "module",
+    "scripts": {
+        "start": "export NODE_ENV=production && node index.js",
+        "dev": "export NODE_ENV=development && nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.25.0",
+        "bcryptjs": "^2.4.3",
+        "cheerio": "^1.0.0-rc.10",
+        "cors": "^2.8.5",
+        "dotenv": "^14.3.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "express-mysql-session": "^2.1.7",
+        "express-session": "^1.17.2",
+        "joi": "^17.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "moment-timezone": "^0.5.34",
+        "multer": "^1.4.4",
+        "mysql2": "^2.3.3",
+        "node-fetch": "^2.6.7",
+        "nodemailer": "^6.7.3",
+        "nodemon": "^2.0.15",
+        "request": "^2.88.2",
+        "socket.io": "^4.4.1",
+        "uuid": "^8.3.2"
+    }
+}

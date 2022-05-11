@@ -1,0 +1,35 @@
+
+
+# 回應
+res.end()
+res.send()
+res.json()
+res.render()
+res.redirect()
+
+req.query(GET) 
+＃querystring
+
+http://localhost:3000/try-qs?a=1&b=3
+http://localhost:3000/try-qs?a[]=2&a[]=bill http://localhost:3000/try-qs?a=2&a=bill 
+http://localhost:3000/try-qs?a[age]=20&a[name]=bill
+
+req.body #表單的資料(POST)
+
+req.params #路徑上的變數代稱
+
+req.file  #multer 檔案上傳
+req.files  #multer 檔案上傳
+
+req.session
+
+middleware#中介軟體
+
+
+
+
+
+
+
+
+
